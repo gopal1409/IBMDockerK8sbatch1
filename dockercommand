@@ -1,0 +1,3 @@
+Deploy our First COntainer
+27  docker container run --publish 80:80 --detach nginx
+   28  docker ps
