@@ -9,4 +9,19 @@ Deploy our First COntainer
    42  docker ps -a
    43  docker start d5ce
    44  docker ps
+   
+   How to delete the container
+    52  docker ps -a
+   53  docker rm fe0f
+   54  docker rm 5f03
+   55  clear
+   56  docker ps -a
+   57  docker rm d5ce
+   58  docker rm d5ce --force
+   59  docker ps
+   60  docker stop a789
+   61  docker ps -a
+   62  docker rm a7896
+   63  history
+
 
